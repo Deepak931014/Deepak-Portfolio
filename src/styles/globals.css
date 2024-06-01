@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 39 100% 100%; /* Orange background */
+    --foreground: 39 100% 3.9%; /* Orange foreground */
+    --border: 39 100% 90%; /* Light orange border */
+    --destructive: 0 84.2% 60.2%; /* Destructive color, adjust as needed */
+    --destructive-foreground: 0 0% 98%; /* Destructive foreground, adjust as needed */
+    --accent: 39 100% 35%; /* Orange accent */
+    --accent-foreground: 240 5.9% 10%; /* Adjusted foreground for accent */
+    --muted: 240 4.8% 95.9%; /* Muted color, adjust as needed */
+    --muted-foreground: 240 3.8% 46.1%; /* Adjusted foreground for muted */
+  }
+
+  .dark {
+    --background: 39 100% 3.9%; /* Dark orange background */
+    --foreground: 0 0% 98%; /* Light foreground */
+    --border: 39 100% 15.9%; /* Dark orange border */
+    --destructive: 0 62.8% 30.6%; /* Darker destructive color */
+    --destructive-foreground: 0 0% 98%; /* Destructive foreground in dark mode */
+    --accent: 39 100% 40%; /* Darker orange accent */
+    --accent-foreground: 0 0% 98%; /* Accent foreground in dark mode */
+    --muted: 39 100% 15.9%; /* Darker muted color */
+    --muted-foreground: 39 100% 64.9%; /* Adjusted muted foreground */
+  }
+
+  * {
+    @apply border-border; /* Apply the border style defined in Tailwind */
+  }
+
+  body {
+    @apply min-h-screen bg-background text-foreground; /* Apply background and text color */
+  }
+}

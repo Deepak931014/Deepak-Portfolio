@@ -1,0 +1,119 @@
+/* ---------------------- Golden/Yellow theme ----------------------- */
+:root {
+  --background: 0 0% 100%; /* White background */
+  --foreground: 0 100% 50%; /* Pure red foreground */
+  --border: 0 100% 90%; /* Light red border */
+  --destructive: 0 84.2% 60.2%; /* Destructive color, adjust as needed */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground, adjust as needed */
+  --accent: 0 100% 50%; /* Pure red accent */
+  --accent-foreground: 240 5.9% 10%; /* Adjusted foreground for accent */
+  --muted: 240 4.8% 95.9%; /* Muted color, adjust as needed */
+  --muted-foreground: 240 3.8% 46.1%; /* Adjusted foreground for muted */
+}
+.dark {
+  --background: 240 10% 3.9%; /* Dark background */
+  --foreground: 0 0% 98%; /* Light foreground */
+  --border: 240 3.7% 15.9%; /* Dark red border */
+  --destructive: 0 62.8% 30.6%; /* Darker destructive color */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground in dark mode */
+  --accent: 0 100% 50%; /* Darker red accent */
+  --accent-foreground: 0 0% 98%; /* Accent foreground in dark mode */
+  --muted: 240 3.7% 15.9%; /* Darker muted color */
+  --muted-foreground: 240 5% 64.9%; /* Adjusted muted foreground */
+}
+
+/* ------------------------- Violet theme ------------------------- */
+:root {
+  --background: 0 0% 100%; /* White background */
+  --foreground: 300 100% 50%; /* Pure red foreground */
+  --border: 300 100% 90%; /* Light red border */
+  --destructive: 0 84.2% 60.2%; /* Destructive color, adjust as needed */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground, adjust as needed */
+  --accent: 300 100% 50%; /* Pure red accent */
+  --accent-foreground: 240 5.9% 10%; /* Adjusted foreground for accent */
+  --muted: 240 4.8% 95.9%; /* Muted color, adjust as needed */
+  --muted-foreground: 240 3.8% 46.1%; /* Adjusted foreground for muted */
+}
+.dark {
+  --background: 240 10% 3.9%; /* Dark background */
+  --foreground: 0 0% 98%; /* Light foreground */
+  --border: 240 3.7% 15.9%; /* Dark red border */
+  --destructive: 0 62.8% 30.6%; /* Darker destructive color */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground in dark mode */
+  --accent: 0 100% 50%; /* Darker red accent */
+  --accent-foreground: 0 0% 98%; /* Accent foreground in dark mode */
+  --muted: 240 3.7% 15.9%; /* Darker muted color */
+  --muted-foreground: 240 5% 64.9%; /* Adjusted muted foreground */
+}
+
+/* ------------------------- Emerald theme ------------------------- */
+:root {
+  --background: 0 0% 100%; /* White background */
+  --foreground: 120 100% 50%; /* Pure red foreground */
+  --border: 120 100% 90%; /* Light red border */
+  --destructive: 0 84.2% 60.2%; /* Destructive color, adjust as needed */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground, adjust as needed */
+  --accent: 120 100% 50%; /* Pure red accent */
+  --accent-foreground: 240 5.9% 10%; /* Adjusted foreground for accent */
+  --muted: 240 4.8% 95.9%; /* Muted color, adjust as needed */
+  --muted-foreground: 240 3.8% 46.1%; /* Adjusted foreground for muted */
+}
+.dark {
+  --background: 240 10% 3.9%; /* Dark background */
+  --foreground: 0 0% 98%; /* Light foreground */
+  --border: 240 3.7% 15.9%; /* Dark red border */
+  --destructive: 0 62.8% 30.6%; /* Darker destructive color */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground in dark mode */
+  --accent: 120 100% 50%; /* Darker red accent */
+  --accent-foreground: 0 0% 98%; /* Accent foreground in dark mode */
+  --muted: 240 3.7% 15.9%; /* Darker muted color */
+  --muted-foreground: 240 5% 64.9%; /* Adjusted muted foreground */
+}
+
+/* --------------------------- Blue theme -------------------------- */
+:root {
+  --background: 0 0% 100%; /* White background */
+  --foreground: 210 100% 50%; /* Pure red foreground */
+  --border: 210 100% 90%; /* Light red border */
+  --destructive: 0 84.2% 60.2%; /* Destructive color, adjust as needed */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground, adjust as needed */
+  --accent: 210 100% 50%; /* Pure red accent */
+  --accent-foreground: 240 5.9% 10%; /* Adjusted foreground for accent */
+  --muted: 240 4.8% 95.9%; /* Muted color, adjust as needed */
+  --muted-foreground: 240 3.8% 46.1%; /* Adjusted foreground for muted */
+}
+.dark {
+  --background: 240 10% 3.9%; /* Dark background */
+  --foreground: 0 0% 98%; /* Light foreground */
+  --border: 240 3.7% 15.9%; /* Dark red border */
+  --destructive: 0 62.8% 30.6%; /* Darker destructive color */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground in dark mode */
+  --accent: 210 100% 50%; /* Darker red accent */
+  --accent-foreground: 0 0% 98%; /* Accent foreground in dark mode */
+  --muted: 240 3.7% 15.9%; /* Darker muted color */
+  --muted-foreground: 240 5% 64.9%; /* Adjusted muted foreground */
+}
+
+/* --------------------------- Rose theme -------------------------- */
+:root {
+  --background: 0 0% 100%; /* White background */
+  --foreground: 330 100% 50%; /* Pure red foreground */
+  --border: 330 100% 90%; /* Light red border */
+  --destructive: 0 84.2% 60.2%; /* Destructive color, adjust as needed */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground, adjust as needed */
+  --accent: 330 100% 50%; /* Pure red accent */
+  --accent-foreground: 240 5.9% 10%; /* Adjusted foreground for accent */
+  --muted: 240 4.8% 95.9%; /* Muted color, adjust as needed */
+  --muted-foreground: 240 3.8% 46.1%; /* Adjusted foreground for muted */
+}
+.dark {
+  --background: 240 10% 3.9%; /* Dark background */
+  --foreground: 0 0% 98%; /* Light foreground */
+  --border: 240 3.7% 15.9%; /* Dark red border */
+  --destructive: 0 62.8% 30.6%; /* Darker destructive color */
+  --destructive-foreground: 0 0% 98%; /* Destructive foreground in dark mode */
+  --accent: 330 100% 50%; /* Darker red accent */
+  --accent-foreground: 0 0% 98%; /* Accent foreground in dark mode */
+  --muted: 240 3.7% 15.9%; /* Darker muted color */
+  --muted-foreground: 240 5% 64.9%; /* Adjusted muted foreground */
+}
